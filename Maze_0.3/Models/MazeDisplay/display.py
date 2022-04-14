@@ -73,9 +73,9 @@ def display_maze(key):
                     fill=sub_to_hexa(key, Maze_class._maze_dict[key][y][x]),
                     outline=""
                 )
-            if UserInput_class._show_display == 1:
-                WindowProperty_class._my_canvas.update()
-                sleep(UserInput_class._waiting_time)
+            # if UserInput_class._show_display == 1:
+            #     WindowProperty_class._my_canvas.update()
+            #     sleep(UserInput_class._waiting_time)
 
 
 def display_maze_randomisation():
